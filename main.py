@@ -7,7 +7,7 @@ class PaintApp:
     def __init__(self):
         self.root = tk.Tk()
         self.root.geometry("800x600")
-        self.root.title("Refactored Paint App")
+        self.root.title("Paint App")
         self.initialize_canvas()
         self.initialize_toolbar()
         self.bind_events()
